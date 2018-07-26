@@ -1,0 +1,598 @@
+* 
+{	
+    box-sizing: border-box;
+}
+	 
+/* start nav bar */
+/**{;outline: .5px solid red;}*/
+.navbar
+{
+	height: 67px;
+	margin-bottom: 0px;
+	border-radius: 0
+}
+.navbar > .container .navbar-brand, 
+.navbar > .container-fluid .navbar-brand
+{
+	font-size: 30px;
+	margin: 10px auto;
+	color: white;
+	font-family: 'Pacifico', cursive;
+}
+.navbar .collapse
+{
+	font-weight: bold;
+	font-size:13px;
+	margin: 10px auto;
+	background: #1e1e1e
+
+}
+.navbar-header
+{
+    margin-bottom:-3px;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+	background-color: transparent;
+	border-bottom: 2px solid #96E16B;
+	color: #96E16B;
+	margin-right: 5px;
+	margin-left: 5px; 
+
+}
+.navbar-inverse
+{
+	background-color: #1e1e1e;
+}
+.navbar-inverse .navbar-nav > li > a
+{
+	color:white;
+}
+.navbar-inverse .navbar-nav > li > a:hover
+{
+	border-bottom: 2px solid #96E16B;
+	color: #96E16B;
+}
+/*start conten*/
+
+.content 
+{
+	background: url('../images/steak.png') no-repeat center center fixed;
+	padding-top:5px;
+	padding-bottom:5px;
+	min-height: 650px;	
+	background-size: cover;
+}
+.content .container h1
+{	
+	margin: 160px auto;
+	color: white;
+	font-size:150px;
+	font-family: 'Pacifico', cursive;
+}
+.content .container  p
+{
+	margin: -150px auto;
+	color: white;
+	font-size:35px;
+}
+.content .container hr
+{
+	margin-top:170px; 
+	width: 50%;
+	color: #888;
+	height: 10px;
+}
+
+/*End conten*/
+
+/* start about us*/
+
+.about
+{
+	padding-top: 85px;
+}
+
+.about .container .info h2
+{
+	font-weight: bold;
+	font-size: 40px;
+	border: 1px solid #2f2e2f;
+	padding: 6px 8px;
+	margin-bottom: 20px;
+
+}
+.about .container .info p
+{
+	font-size: 22px;
+	margin-top:20px ;
+	line-height: 35px
+}
+.about .container .pics img
+{
+	margin: 2px;
+}
+
+/* End about us*/
+
+/*start pricing */
+
+.pricing .background-pricing
+{
+	margin-top:120px;
+	background: url('../images/pricing.png') no-repeat center center fixed; 
+	width: 100%;
+	min-height: 630px;
+	background-size: cover;
+}
+.pricing .background-pricing h1
+{
+	font-weight: bold;
+	font-size: 90px;
+	padding-top:240px;
+	color: white;
+}
+.pricing .background-pricing span
+{
+	border-bottom: 8px solid white;
+}
+.pricing .lists  ul 
+{
+	list-style:none;
+	word-spacing: 50px;
+	margin-top: 40px;
+	font-weight: bold;
+
+}
+.pricing .lists ul  li
+{
+	cursor:pointer;
+	display: inline-block;
+	font-size: 20px;
+	border-bottom: 1px solid transparent;
+}
+.pricing .lists ul  li:hover
+{
+	color:#bb0f0f;
+	/*border-bottom: 1px solid #6fb107fa;*/
+}
+.pricing .lists .active
+{
+	border-bottom: 1px solid black;
+}
+
+
+
+.pricing .pics1
+{
+	list-style: none
+}
+.pricing  .pics1 img
+{
+	display: inline-block;
+	width: 233px;
+	height: 200px;
+	max-width: 100%;
+
+
+}
+
+.pricing h5
+{
+	margin-top:0;
+	height: 45px;
+	background-color: rgba(211, 15, 34, 1) ;
+	color:white;
+	font-size: 40px;
+	font-weight: bold;	
+}
+
+/* End Pricing */
+
+
+/* Start beer */
+
+.beer .background-beer
+{
+	background: url('../images/beer.png') no-repeat center center fixed;
+	background-size:cover;
+	min-height: 630px;
+}
+.beer .background-beer h1
+{
+	font-weight: bold;
+	font-size: 90px;
+	padding-top:100px;
+	color: white;
+}
+.beer .background-beer h1 span
+{
+	border-bottom: 8px solid white;
+}
+
+.beer .img-b img
+{
+	margin-top:60px;
+	width: 500px;
+	height: 330px;
+}
+
+.beer .info
+{
+	margin-top: 60px;
+}
+
+.beer .info h1
+{
+	font-weight: bold;
+	font-size: 40px;
+	border: 1px solid #2f2e2f;
+	padding: 6px 8px;
+	margin-bottom: 20px;
+}
+.beer .info p
+{
+	font-size: 22px;
+	margin-top:20px ;
+	line-height: 35px
+}
+
+/*End Beer */
+
+/* Strat bread */
+.bread .bread-background
+{
+	background:url(../images/breakfast.png) no-repeat center center fixed;
+	min-height: 600px;
+	background-size:cover; 
+}
+.bread .bread-background h1
+{
+	font-weight: bold;
+	font-size: 80px;
+	padding-top:100px;
+	color: white;
+}
+.bread .bread-background h1 span
+{
+	border-bottom: 8px solid white;
+}
+
+.bread .info
+{
+	padding-top:80px;
+}
+.bread .info h1
+{
+	font-weight: bold;
+	font-size: 40px;
+	border: 1px solid #2f2e2f;
+	padding: 6px 8px;
+	margin-bottom: 20px;
+}
+.bread .info p
+{
+	font-size: 22px;
+	margin-top:20px ;
+	line-height: 35px
+}
+.bread .imgs img
+{
+	margin-top: 80px;
+	width: 275px;
+	height: 260px;
+}
+
+/* End Bread */
+
+/* Start featured */
+
+.Featured .Featured-background
+{
+	background: url(../images/featured.png) no-repeat center center fixed ;
+	min-height: 620px;
+	background-size:cover;
+}
+.Featured .Featured-background h1
+{
+	font-weight: bold;
+	font-size: 80px;
+	padding-top:80px;
+	color: white;
+}
+
+.Featured .Featured-background h1 span
+{
+	border-bottom: 8px solid white;
+}
+
+.Featured  .info
+{
+	padding-top: 80px;
+}
+
+.Featured  .info h1
+{
+	font-weight: bold;
+	font-size: 40px;
+	border: 1px solid #2f2e2f;
+	padding: 6px 8px;
+	margin-bottom: 20px;
+}
+.Featured  .info p
+{
+	font-size: 22px;
+	margin-top:20px ;
+	line-height: 50px
+}
+.Featured .carousel .item
+{
+	margin-top: 100px;
+
+}
+
+/* End featured*/
+
+/* Strat Reservation */
+
+.rese-background
+{
+	background: url('../images/reservation-seat.png') no-repeat fixed center center;
+	min-height: 620px;
+	background-size: cover; 
+}
+
+.RESERVATION .rese-background h1
+{
+	font-weight: bold;
+	font-size: 70px;
+	padding-top:180px;
+	color: white;
+}
+
+.RESERVATION .d1 , .d2 
+{
+	width:100%;
+	padding-top:60px;
+	
+}
+.RESERVATION  #first_name, #last_name , #state ,#datepicker, #phone ,#guest ,#email , #subject 
+{
+	width: 350px;
+	padding: 13px;
+	margin: 13px;
+}
+
+.RESERVATION #btn
+{
+	width: 200px;
+	margin-top: 20px;
+	padding: 10px;
+	font-size: 20px
+}
+.RESERVATION .right-text
+{
+	padding-top: 50px
+}
+.RESERVATION .right-text hr
+{
+	padding-bottom: 20px;
+}
+.RESERVATION .right-text h2
+{
+	font-weight: bold;
+}
+.RESERVATION .right-text p
+{
+	font-size: 18px;
+	border-bottom: .5px solid black;
+}
+
+.footer
+{
+	background-color: #1C1C1C;
+	margin-top: 70px;
+	height: 70px;
+}
+.footer  p
+{
+	color: #6B6B6B;
+	font-size: 30px;
+	padding-top:8px
+}
+	
+.footer .link
+{
+	color: white
+}
+/* End Reservation */
+.navbar-inverse .navbar-toggle
+{
+	margin-top: 18px
+}
+/* Start MediaQuery */
+
+@media (max-width: 690px)
+{.content .container h1 
+	{
+		font-size: 110px;
+	}
+}
+
+@media (max-width: 515px)
+{.content .container h1
+	{
+		font-size: 80px;
+	}
+}
+
+@media (max-width: 385px)
+{.content .container h1  ,.pricing .background-pricing h1
+	{
+		font-size: 50px;
+	}
+}
+@media (max-width: 385px)
+{.content .container p
+	{
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 690px)
+{.pricing .background-pricing h1
+	{
+		font-size: 70px;
+	}
+}
+
+@media (max-width: 385px)
+{.pricing .background-pricing h1
+	{
+		font-size: 40px;
+	}
+}
+@media (max-width: 385px)
+{.pricing .background-pricing h1 span
+	{
+		border-bottom: 3px solid white;
+	}
+}
+
+@media (max-width: 288px)
+{.about .pics img
+	{
+		width: 220px;
+		height: 210px
+	}
+}
+@media (max-width: 530px)
+{.beer .img-b img
+	{
+		width: 340px;
+		height: 280px
+	}
+}
+}
+@media (max-width: 545px)
+{.beer .img-b img
+	{
+		width: 210px;
+		height: 200px
+	}
+}
+@media (max-width: 385px)
+{.beer .img-b img
+	{
+		width: 180px;
+		height: 150px
+	}
+}
+@media (max-width: 325px)
+{.bread .imgs img
+	{
+		width: 220px;
+		height: 210px;
+	}
+}
+@media (max-width: 600px)
+{.bread .imgs img
+	{
+		margin: 5px
+	}
+}
+
+@media (max-width: 410px) 
+{.RESERVATION  #first_name, #last_name , #state ,#datepicker, #phone ,#guest ,#email , #subject 
+	{
+		width:280px
+	}
+}
+
+@media (max-width: 340px) 
+{.RESERVATION  #first_name, #last_name , #state ,#datepicker, #phone ,#guest ,#email , #subject 
+	{
+		width:210px
+	}
+}
+
+
+@media (max-width: 600px)
+{.bread .imgs img
+	{
+		margin: 5px
+	}
+}
+
+
+@media (max-width: 388px)
+{.beer .background-beer h1 , .bread .bread-background h1
+	{
+		font-size:65px
+	}
+}
+
+@media (max-width:360px)
+{.Featured .Featured-background h1
+	{
+		font-size: 50px
+	}
+}
+
+@media (max-width:360px)
+{.bread .bread-background h1
+	{
+		font-size: 50px
+	}
+}
+
+@media (max-width:300px)
+{.RESERVATION .rese-background h1
+	{
+		font-size: 45px
+	}
+}
+@media (max-width:770px)
+{.footer p
+	{
+		font-size: 20px;
+		margin: auto;
+	}
+}
+
+@media  (max-width:995px ) and (min-width: 768px)
+{.navbar-inverse .navbar-nav > li > a
+	{
+		font-size: 12px;
+	
+	}
+
+}
+
+
+@media (max-width: 995px) and (min-width:768px )
+{.navbar > .container .navbar-brand,
+ .navbar > .container-fluid .navbar-brand
+	{
+		font-size: 20px;
+    	margin: 10px 0 10px -20px;
+	}
+
+}
+/* End MediaQuery */
+
+
+.mix
+{
+	display: inline-block;
+}
+
+
+
+/*.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    font-size: 24px;
+    margin: 10px 2px 10px -40px;
+    color: white;
+    font-family: 'Pacifico', cursive;*/
